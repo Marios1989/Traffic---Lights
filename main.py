@@ -5,7 +5,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-cap = cv2.VideoCapture('/home/user/Downloads/Flashing traffic lights.avi')
+cap = cv2.VideoCapture('/home/user/Downloads/videoplayback.avi')
 
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
